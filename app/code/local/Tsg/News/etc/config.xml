@@ -49,4 +49,13 @@
             </adminhtml>
         </routers>
     </admin>
+    <adminhtml>
+        <layout>
+            <updates>
+                <tsg_news>
+                    <file>tsg_news.xml</file>
+                </tsg_news>
+            </updates>
+        </layout>
+    </adminhtml>
 </config>
