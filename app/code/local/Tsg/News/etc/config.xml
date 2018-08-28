@@ -5,4 +5,20 @@
             <version>0.1.0</version>
         </Tsg_News>
     </modules>
+    <global>
+        <models>
+            <tsg_news>
+                <class>Tsg_News_Model</class>
+                <resourceModel>tsg_news_resource</resourceModel>
+            </tsg_news>
+            <tsg_news_resource>
+                <class>Tsg_News_Model_Resource</class>
+                <entities>
+                    <news>
+                        <table>tsg_news</table>
+                    </news>
+                </entities>
+            </tsg_news_resource>
+        </models>
+    </global>
 </config>
