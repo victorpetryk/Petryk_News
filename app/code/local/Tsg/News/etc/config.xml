@@ -6,6 +6,11 @@
         </Tsg_News>
     </modules>
     <global>
+        <blocks>
+            <tsg_news>
+                <class>Tsg_News_Block</class>
+            </tsg_news>
+        </blocks>
         <helpers>
             <tsg_news>
                 <class>Tsg_News_Helper</class>
