@@ -20,5 +20,12 @@
                 </entities>
             </tsg_news_resource>
         </models>
+        <resources>
+            <tsg_news_setup>
+                <setup>
+                    <module>Tsg_News</module>
+                </setup>
+            </tsg_news_setup>
+        </resources>
     </global>
 </config>
