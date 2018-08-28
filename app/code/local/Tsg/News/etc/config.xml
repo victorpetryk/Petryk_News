@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Tsg_News>
+            <version>0.1.0</version>
+        </Tsg_News>
+    </modules>
+</config>
