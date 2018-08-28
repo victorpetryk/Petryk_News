@@ -28,4 +28,15 @@
             </tsg_news_setup>
         </resources>
     </global>
+    <admin>
+        <routers>
+            <adminhtml>
+                <args>
+                    <modules>
+                        <tsg_news before="Mage_Adminhtml">Tsg_News_Adminhtml</tsg_news>
+                    </modules>
+                </args>
+            </adminhtml>
+        </routers>
+    </admin>
 </config>
