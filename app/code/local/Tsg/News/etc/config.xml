@@ -6,6 +6,11 @@
         </Tsg_News>
     </modules>
     <global>
+        <helpers>
+            <tsg_news>
+                <class>Tsg_News_Helper</class>
+            </tsg_news>
+        </helpers>
         <models>
             <tsg_news>
                 <class>Tsg_News_Model</class>
