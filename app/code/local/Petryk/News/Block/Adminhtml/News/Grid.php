@@ -62,7 +62,6 @@ class Petryk_News_Block_Adminhtml_News_Grid extends Mage_Adminhtml_Block_Widget_
             'align' => 'left',
             'type' => 'text',
             'index' => 'content',
-            'truncate' => 125,
             'filter' => false,
             'escape' => true,
         ));
