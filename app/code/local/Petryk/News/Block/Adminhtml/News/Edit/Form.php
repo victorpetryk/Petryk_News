@@ -49,16 +49,18 @@ class Petryk_News_Block_Adminhtml_News_Edit_Form extends Mage_Adminhtml_Block_Wi
 
         $fieldset->addField('title', 'text', array(
             'name' => 'title',
-            'class' => 'validate-no-html-tags',
+            'class' => 'validate-no-html-tags validate-length maximum-length-50',
             'label' => $helper->__('Title'),
             'title' => $helper->__('Title'),
+            'note' => $helper->__('Max 50 characters.'),
             'required' => true
         ));
 
         $fieldset->addField('content', 'textarea', array(
             'name' => 'content',
             'label' => $helper->__('Content'),
-            'title' => $helper->__('Content')
+            'title' => $helper->__('Content'),
+            'required' => true
         ));
 
         $form->setValues($model->getData());
