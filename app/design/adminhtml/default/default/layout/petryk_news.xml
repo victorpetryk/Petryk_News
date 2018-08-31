@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<layout>
+    <adminhtml_petryk_news_index>
+        <reference name="content">
+            <block type="petryk_news/adminhtml_news" name="petryk_news.index"/>
+        </reference>
+    </adminhtml_petryk_news_index>
+
+    <adminhtml_petryk_news_new>
+        <update handle="adminhtml_petryk_news_edit"/>
+    </adminhtml_petryk_news_new>
+
+    <adminhtml_petryk_news_edit>
+        <reference name="content">
+            <block type="petryk_news/adminhtml_news_edit" name="petryk_news.edit"/>
+        </reference>
+    </adminhtml_petryk_news_edit>
+</layout>

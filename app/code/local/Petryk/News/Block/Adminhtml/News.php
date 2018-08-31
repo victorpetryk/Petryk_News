@@ -3,25 +3,25 @@
 /**
  * News adminhtml grid container block
  *
- * @category    Tsg
- * @package     Tsg_News
+ * @category    Petryk
+ * @package     Petryk_News
  * @author      Victor Petryk <victor.petryk@transoftgroup.com>
  */
 
-class Tsg_News_Block_Adminhtml_News extends Mage_Adminhtml_Block_Widget_Grid_Container
+class Petryk_News_Block_Adminhtml_News extends Mage_Adminhtml_Block_Widget_Grid_Container
 {
     public function __construct()
     {
-        $this->_blockGroup = 'tsg_news';
+        $this->_blockGroup = 'petryk_news';
         $this->_controller = 'adminhtml_news';
-        $this->_headerText = Mage::helper('tsg_news')->__('Manage News');
-        $this->_addButtonLabel = Mage::helper('tsg_news')->__('Add News');
+        $this->_headerText = Mage::helper('petryk_news')->__('Manage News');
 
         parent::__construct();
     }
 
     /**
-     * CSS class with icon for container header
+     * Get CSS class to display icon
+     * near grid container heading
      *
      * @return string
      */

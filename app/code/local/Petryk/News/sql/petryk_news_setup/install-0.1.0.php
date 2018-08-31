@@ -3,8 +3,8 @@
 /**
  * Install script
  *
- * @category    Tsg
- * @package     Tsg_News
+ * @category    Petryk
+ * @package     Petryk_News
  * @author      Victor Petryk <victor.petryk@transoftgroup.com>
  */
 
@@ -13,7 +13,7 @@ $installer = $this;
 
 $installer->startSetup();
 
-$tableName = $installer->getTable('tsg_news/news');
+$tableName = $installer->getTable('petryk_news/news');
 
 $table = $installer->getConnection()->newTable($tableName)
     ->addColumn('news_id', Varien_Db_Ddl_Table::TYPE_INTEGER, null, array(
@@ -29,7 +29,7 @@ $table = $installer->getConnection()->newTable($tableName)
         'nullable' => false
     ), 'News Content')
     ->addColumn('image', Varien_Db_Ddl_Table::TYPE_VARCHAR, 250, array(
-        'nullable' => false
+        'nullable' => true
     ), 'News Image')
     ->setComment('News Table');
 

@@ -1,8 +1,0 @@
-<?xml version="1.0"?>
-<layout>
-    <adminhtml_tsg_news_index>
-        <reference name="content">
-            <block type="tsg_news/adminhtml_news" name="tsg_news.index"/>
-        </reference>
-    </adminhtml_tsg_news_index>
-</layout>
